@@ -186,11 +186,11 @@ salmon e4a681  */
 
 
 .contenedorb {
-    margin: auto;
+    
     overflow: hidden;
     background-color:#bba389;
     border-radius:0px ;
-    margin-top: 5px;
+    padding: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #020202;
 
@@ -210,7 +210,7 @@ salmon e4a681  */
 }
 
 .indeximg{
-    width: 400px;
+    width: 500px;
     height: 300px;
     margin-left: 30%;
     margin-top: 5%;
@@ -218,7 +218,7 @@ salmon e4a681  */
     
 }
 .indeximgb{
-    width: 400px;
+    width: 500px;
     height: 300px;
     margin-left: 15%;
     margin-top: 5%;
