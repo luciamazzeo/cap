@@ -80,9 +80,10 @@ salmon e4a681  */
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-content: center;
-    background-color: #d09984;
-       
+    background-color: #f1cfc1;   
 } 
+
+
 
 #footer{
     background-color: #6b8376;
@@ -250,6 +251,4 @@ salmon e4a681  */
     padding: 2em;
 
 }
-
-
 
