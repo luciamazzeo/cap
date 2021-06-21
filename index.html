@@ -4,20 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/bb429fe0e1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <title>Convocatoria al Psicoanalisis  </title>
 </head>
 <body>
 
+  <section class="carrusel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../CaP/img/images (1).jpg" class="d-block w-100" alt="...">
+        </div>
+    
+        <div class="carousel-item">
+          <img src="../CaP/img/lacan1.jpg" class="d-block w-100 carouselimg" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="../CaP/img/freud2.jpg" class="d-block w-100 carouselimg" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="../CaP/img/lacan2.jpg" class="d-block w-100 carouselimg" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="../CaP/img/freud3.jpg" class="d-block w-100 carouselimg" alt="..." >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+  </section>
+
       <nav class="navbar sticky-top navbar-expand-lg navbar-light" id="nav">
-        <div class="container-fluid">
+        <div class="container-fluid justify-content-center">
           <div>
           <a class="navbar-brand" href="#">
-            <img src="../CaP/img/logoo.png" alt="" width="80" height="80" href="index.html">
+            <img src="../CaP/img/logoo.png" alt="" width="50" height="50" href="index.html">
           </a></div>
           <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,48 +87,15 @@
         </div>
         </div>
       </nav>
-      <section class="uno">
+
+      <!--<section class="uno">
         <p class="dos"> Convocatoria al Psicoanalisis</p>
         <p>Institucion Psicoanalitica</p>
-      </section>
-      <section class="carrusel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../CaP/img/images (1).jpg" class="d-block w-100" alt="...">
-            </div>
-        
-            <div class="carousel-item">
-              <img src="../CaP/img/lacan1.jpg" class="d-block w-100 carouselimg" alt="..." >
-            </div>
-            <div class="carousel-item">
-              <img src="../CaP/img/freud2.jpg" class="d-block w-100 carouselimg" alt="..." >
-            </div>
-            <div class="carousel-item">
-              <img src="../CaP/img/lacan2.jpg" class="d-block w-100 carouselimg" alt="..." >
-            </div>
-            <div class="carousel-item">
-              <img src="../CaP/img/freud3.jpg" class="d-block w-100 carouselimg" alt="..." >
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
-        </div>
+      </section>-->
+      
 
-      </section>
 
-      <section class="tabla">
+      <!--<section class="tabla">
         <p >
           <p id="quienesomos" class="qsomos">Quienes Somos</p> 
         </p> 
@@ -139,38 +148,114 @@
         </p>
         <section class="quienessomos">
         <p class="qsomos1">Queres ser miembro de Cap </p>
-        <p class="qsomos1">Escribinos a convocatoriaalpsicoanalisis@yahoo.com.ar</p>
         <p class="qsomos3">Beneficios para miembros con menos de 5 años recibidos</p>
         </section>
+      </section>-->
+
+      <section class="row comisiones">
+        <p >
+          <p id="quienesomos" class="qsomos act2">Quienes Somos- Comisiones</p> 
+        </p> 
+        
+        <div class="miembros">
+          <p class="comision">Directiva</p>
+          <span class="badge rounded-pill bg-secondary">BLASCO, Federico</span>
+          <span class="badge rounded-pill bg-secondary">CARREÑO BALINOTTI, Rocio</span>
+          <span class="badge rounded-pill bg-secondary">GARRIGA LACAZE, Lucia</span>
+          <span class="badge rounded-pill bg-secondary">GRASSI, Carola</span>
+          <span class="badge rounded-pill bg-secondary">LATUF, Maria Eugenia</span>
+        </div>
+
+        <div class=" miembros">
+          <p class="comision">Biblioteca</p>
+          <span class="badge rounded-pill bg-secondary"> AROUGUETI, Elisabet</span>
+          <span class="badge rounded-pill bg-secondary">BERRETA, Patricia</span>
+          <span class="badge rounded-pill bg-secondary">BLASCO, Federico</span>  
+          <span class="badge rounded-pill bg-secondary">GUGLIOTA, Analia</span>  
+          <span class="badge rounded-pill bg-secondary">MAZZIERI , Daniela</span>                  
+        </div>
+
+        <div class="miembros">
+          <p class="comision">Clinica</p>
+          <span class="badge rounded-pill bg-secondary">ALE, Yasmin</span>
+          <span class="badge rounded-pill bg-secondary">CARREÑO BALINOTTI, Rocio</span>
+          <span class="badge rounded-pill bg-secondary">CERRILLANO, Claudio</span>
+          <span class="badge rounded-pill bg-secondary">DIAZ, Georgina</span>
+          <span class="badge rounded-pill bg-secondary">DOMENIGHINI, Maria Ana</span>
+          <span class="badge rounded-pill bg-secondary">GIUDA, Hilda</span>
+          <span class="badge rounded-pill bg-secondary">KIRINCICH, Agustina</span>
+          <span class="badge rounded-pill bg-secondary">RANEDO, Florencia</span>
+          <span class="badge rounded-pill bg-secondary">ZAVALETA, Mariana</span>
+
+          </div>
+          
+         
+        <div class="miembros">
+          <p class="comision">Difusion</p>
+          <span class="badge rounded-pill bg-secondary"> FRANCIA, Maria Jose</span>
+          <span class="badge rounded-pill bg-secondary">GARRIGA LACAZE, Lucia </span>
+          <span class="badge rounded-pill bg-secondary">IPARRAGUIRRE, Sofia </span>  
+          <span class="badge rounded-pill bg-secondary">ODDONE, Maria Amor</span>  
+          <span class="badge rounded-pill bg-secondary">SALLES REYES, Julieta</span>                  
+        </div>
+
+        <div class="miembros">
+          <p class="comision">Recursos</p>
+          <span class="badge rounded-pill bg-secondary"> LATUF, Maria Eugenia</span>
+          <span class="badge rounded-pill bg-secondary">TORRES, Daniela </span>
+          <span class="badge rounded-pill bg-secondary">CHURRUPIT, Cintia </span>  
+          <span class="badge rounded-pill bg-secondary">AGUERO, Catalina</span>     
+                         
+        </div>
+
+        <div class="miembros">
+          <p class="comision">Transmision y Enseñanza</p>
+          <span class="badge rounded-pill bg-secondary"> AROUGUETI, Elisabet</span>
+          <span class="badge rounded-pill bg-secondary">COSIMI, Alfredo </span>
+          <span class="badge rounded-pill bg-secondary"> GRASSI, Carola </span>  
+          <span class="badge rounded-pill bg-secondary">LOGALDO, Melina</span>  
+          <span class="badge rounded-pill bg-secondary">SANZA, Marcela</span>          
+        </div>
+       
+        <div class="miembros">
+          <p class="comision">Jornadas</p>
+          <span class="badge rounded-pill bg-secondary"> CARREÑO BALINOTTI; Rocio</span>
+          <span class="badge rounded-pill bg-secondary"> ; IPARRAGUIRRE; Sofia </span>
+          <span class="badge rounded-pill bg-secondary">LOGALDO, Melina </span>  
+          <span class="badge rounded-pill bg-secondary">SANZA, Marcela</span>            
+        </div>
+
+
       </section>
+        
 
 
   <div class="contenedor" class="row justify-content-between">
     <div class="row justify-content-center">
-        <div class="col-4" id="actividades">
-          <section class="textos-header">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" id="actividades">
+          <div class="textos-header">
             <p class="titulo"> Actividades</p>
             <p>En esta seccion podes encontrar las actividades que estaremos realizando proximamanete e informacion de la misma! </p>
-            <a href="../CaP/actividades.html" type="button" class="btnlucia btn">IR</a>
-          </section>
+            <a href="actividades.html" type="button" class="btnlucia btn">IR</a>
+          </div>
         </div>
-        <div class="col-4">
-          <img class="indeximg" src="../CaP/img/freud2.jpg" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <img class="w-100 h-100" src="img/freud2.jpg" alt="">
         </div>
-      </div>
-      </div>
+    </div>
+  </div>
 
       <div class="contenedor" class="row justify-content-between">
         <div class="row justify-content-center">
-            <div class="col-4" id="actreal">
-              <img class="indeximgb" src="../CaP/img/lacan1.jpg" alt=""> 
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" id="actreal">
+              <img class="w-100 h-100" src="img/lacan1.jpg" alt=""> 
             </div>
-            <div class="col-4">
-              <section class="textos-headerb">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="textos-header">
                 <p class="titulo"> Actividades Realizadas</p>
                 <p>En esta seccion podes encontrar las actividades que ya hemos realizado! </p>
-                <a href="../CaP/actreal.html" type="button" class="btnlucia btn">IR</a>
-              </section>
+                <a href="actreal.html" type="button" class="btnlucia btn">IR</a>
+              </div>
             </div>
         </div>
       </div>
@@ -178,74 +263,63 @@
 
       <div class="contenedor" class="row justify-content-between">
         <div class="row justify-content-center">
-            <div class="col-4" id="biblio">
-              <section class="textos-header">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" id="biblio">
+              <div class="textos-header">
                 <p class="titulo"> Biblioteca</p>
                 
                 <p>En esta seccion podes encontrar las actividades que ya hemos realizado! </p>
-                <a href="../CaP/biblioteca.html" type="button" class="btnlucia btn">IR</a>
-              </section>
+                <a href="biblioteca.html" type="button" class="btnlucia btn">IR</a>
+              </div>
             </div>
-            <div class="col-4">
-              <img class="indeximg" src="../CaP/img/biblio.jpg" alt="">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <img class="w-100 h-100" src="img/biblio.jpg" alt="">
             </div>
         </div>
       </div>    
 </body>
 
-<div id="contacto" class="row">
-  <div class="col-6 ">
-    <div class="footertext">
-      <p class="text-center">info@convpsi.org</p>
-      <p class="text-center">Tel.: 223 6701565</p>
-      <p id="dir">CATAMARCA 3050 - OF. 601 - MAR DEL PLATA -  ARGENTINA</p>
+<div class="" id="contacto">
+  <div class="row">
+    <h3 class="mb-4 text-center">Contactanos</h3>
+    <div class="col-xs-12 col-sm-12 col-md-6 dataContact">
+      <div class="my-2"><i class="fas fa-envelope"></i><span>convocatoriaalpsicoanalisis@yahoo.com.ar</span></div>
+      <div class="my-2"><i class="fas fa-phone"></i><span>223 6701565</span></div>
+      <div class="my-2"><i class="fas fa-map-marker-alt"></i><span>Catamarca 3050 - OF. 601 - Mar del Plata - Argentina</span></div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 formContact">
+      <form class="row needs-validation" id="basic-form" method="POST" action="">
+        <div class="col-md-6 mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control txtName" id="validationCustom01" value="" name="name" placeholder="Ingrese su nombre" >
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="surname" class="form-label">Apellido</label>
+          <input type="text" class="form-control txtSurname" id="validationCustom02" value="" name="surname" placeholder="Ingrese su apellido" >
+        </div>
+        <div class="col-md-12 mb-3">
+          <label for="email" class="form-label">Mail</label>
+          <input type="email" class="form-control txtMail" id="validationCustom03" value="" name="email" placeholder="Ingrese su email" >
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea type="text" class="form-control txtMessage" id="validationTextarea" placeholder="Complete el mensaje" name="message" rows="5" ></textarea>
+        </div>
+        <div class="col-12 text-end">
+          <button class="btn btn-primary btnSend">Enviar</button>
+        </div>
+      </form>
     </div>
   </div>
-<div class="col-6">
-  <form class="row g-3 needs-validation" novalidate>
-    <div class="col-md-6">
-      <label for="validationCustom01" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-6">
-      <label for="validationCustom02" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-12">
-      <label for="validationCustom01" class="form-label">Mail</label>
-      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div> 
-    </div>
-    <div class="mb-3">
-      <label for="validationTextarea" class="form-label">Mensaje</label>
-      <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-      <div class="invalid-feedback">
-        Por favor, introduce tu mensaje en este box.
-      </div>
-    </div>
-    <div class="col-12">
-      <button class="btn btn-primary" type="submit">Enviar</button>
-    </div>
-  </form>
-</div>  
 </div>
-
 
 <footer id="footer" >
  
-  <div class="d-flex justify-content-lg-center">
-    <img src="..CaP/img/logoinst.png" target="_blank" style="width: 40px; height: 40px;" href="https://www.instagram.com/convocatoriaalpsicoanalisis/">
-    <img src="../CaP/img/logofb.png" target="_blank" style="width: 40px; height: 40px;" href="https://www.facebook.com/groups/381735114304/?fref=nf">
-    <img src="../CaP/img/logotw.png" target="_blank" style="width: 40px; height: 40px;" href="https://twitter.com/ConvPsicoanalis">
-  </div>
+  <div class="d-flex justify-content-center align-items-center text-center">
+    <a href="https://www.instagram.com/convocatoriaalpsicoanalisis/" target="_blank"><img src="img/logoinst.png"  style="width: 40px; height: 40px;"></a>
+    <a href="https://www.facebook.com/groups/381735114304/?fref=nf" target="_blank" ><img src="img/logofb.png"  style="width: 40px; height: 40px;"></a>
+    <a href="https://twitter.com/ConvPsicoanalis" target="_blank"><img src="img/logotw.png"  style="width: 40px; height: 40px;"></a>
+
+   </div>
  
 </footer>
 
