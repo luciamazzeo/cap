@@ -278,6 +278,28 @@ label.error {
       sans-serif;
   }
 }
+#contacto i {
+  margin-right: 1em;
+}
+
+#contacto label {
+  margin-bottom: 0;
+}
+
+.dataContact {
+  margin: auto;
+}
+
+.formContact {
+  border-left: 2px solid #decdb9;
+}
+
+label.error {
+  color: #e4a681;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .dataContact {
