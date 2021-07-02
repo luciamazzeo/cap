@@ -46,7 +46,7 @@ salmon: #e4a681  */
 .act3 {
   display: flex;
   background-color: #decdb9;
-  padding: 0;
+  padding: 2em;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -54,26 +54,27 @@ salmon: #e4a681  */
 }
 
 .tress {
-  margin: 0;
-  padding: 1em;
-  border: 1% solid;
+  /* margin: 0; */
+  padding: 0.5em;
   border-color: #d09984;
-  border-radius: 0px;
   box-shadow: 5px 5p #bba389(204, 166, 166);
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
   font-style: italic;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  align-content: center;
-  background-color: #f1cfc1;
+  /* align-content: center; */
+  /* background-color: #f1cfc1; */
 }
 
 .card:hover {
   transition: all;
-  transform: scale(140%);
+  transform: scale(150%);
+  z-index: 10;
 }
-.contenedorcards {
+
+/* .contenedorcards {
   padding: 2em;
-}
+} */
+
 #footer {
   background-color: #6b8376;
   color: #020202;
@@ -174,6 +175,7 @@ salmon: #e4a681  */
   height: 90%;
   width: 90%;
   object-fit: cover;
+  /* clip-path: circle(50% at 50% 50%); */
 }
 
 .textos-header,
@@ -226,10 +228,12 @@ label.error {
 }
 
 .comision {
-  color: #020202;
-  font-size: large;
+  color: #000;
+  font-size: x-large;
   text-align: center;
+
   font-style: italic;
+
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .miembros {
@@ -244,7 +248,7 @@ label.error {
 }
 
 .parallax {
-  min-height: 200px;
+  min-height: 150px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -253,6 +257,29 @@ label.error {
 
 .parallax1 {
   background-image: url("../img/parallax/dark1.jpg");
+}
+
+#contacto i {
+  margin-right: 1em;
+}
+
+#contacto label {
+  margin-bottom: 0;
+}
+
+.dataContact {
+  margin: auto;
+}
+
+.formContact {
+  border-left: 2px solid #decdb9;
+}
+
+label.error {
+  color: #e4a681;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
 }
 
 @media (max-width: 575.98px) {
@@ -277,28 +304,34 @@ label.error {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
-}
-#contacto i {
-  margin-right: 1em;
-}
 
-#contacto label {
-  margin-bottom: 0;
-}
+  .actreal {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-.dataContact {
-  margin: auto;
-}
+  .card:hover {
+    transition: none;
+    transform: scale(100%);
+  }
 
-.formContact {
-  border-left: 2px solid #decdb9;
-}
+  .tress {
+    margin: 0.5em 0 !important;
+  }
 
-label.error {
-  color: #e4a681;
-  font-size: 1rem;
-  display: block;
-  margin-top: 5px;
+  .act3 {
+    padding: 0em;
+  }
+
+  .indeximg,
+  .indeximgb {
+    padding: 1em 0;
+    margin: 0;
+    /* height: 90%; */
+    /* width: 90%; */
+    /* object-fit: cover; */
+    /* clip-path: circle(50% at 50% 50%); */
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -322,5 +355,33 @@ label.error {
     text-align: center;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
+  }
+
+  .actreal {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .card:hover {
+    transition: none;
+    transform: scale(100%);
+  }
+
+  .tress {
+    margin: 0.5em 0 !important;
+  }
+
+  .act3 {
+    padding: 0em;
+  }
+
+  .indeximg,
+  .indeximgb {
+    padding: 2em 0;
+    margin: 0;
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    /* clip-path: circle(50% at 50% 50%); */
   }
 }
