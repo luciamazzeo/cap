@@ -6,7 +6,7 @@ rosita_2: #bba389
 crema: #decdb9
 salmon: #e4a681  */
 
-.uno {
+/* .uno {
   background-color: #6b8376;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -14,11 +14,11 @@ salmon: #e4a681  */
   font-size: x-large;
   font-style: normal;
   padding: 1em;
-}
+} */
 
-.dos {
+/* .dos {
   font-size: xx-large;
-}
+} */
 
 #nav {
   background-color: #6b8376;
@@ -28,20 +28,21 @@ salmon: #e4a681  */
 .btnlucia {
   background-color: #d09984;
   border-radius: 30px;
+  border-color: #6b8376;
 }
 
-.act1 {
+/* .act1 {
   background-color: #6b8376;
   text-align: center;
-}
+} */
 
-.act2 {
+/* .act2 {
   background-color: #6b8376;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 1em;
   font-size: xx-large;
-}
+} */
 
 .act3 {
   display: flex;
@@ -78,95 +79,52 @@ salmon: #e4a681  */
 #footer {
   background-color: #6b8376;
   color: #020202;
-  flex: 0 0 auto;
   text-align: center;
   padding: 2em;
-  width: auto;
-  height: 120px;
 }
 
-#redes {
-  margin-left: 25pt;
-}
-
-#dir {
-  text-align: left;
-}
-
-.qsomos {
-  background-color: #d09984;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-style: italic;
-  color: #101110;
-}
-
-.tabla {
-  background-color: #decdb9;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.qsomos1 {
-  background-color: #d09984;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: larger;
-}
-
-.qsomos3 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: large;
-}
-
-.actividades {
+/* .actividades {
   background-color: #d09984;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: italic;
   font-size: xx-large;
   color: #101110;
-}
-.btnlucia {
-  margin-left: 0px;
-  border-color: #6b8376;
-}
+} */
 
 .contenedor {
+  padding: 1em 0;
   margin: auto;
   overflow: hidden;
   background-color: #bba389;
-  border-radius: 0px;
-  margin-top: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #020202;
-  border-color: #6b8376;
-  border-bottom: #6b8376;
-  border-top: #6b8376;
 }
 
-.contenido-header {
+/* .contenido-header {
   width: 100%;
   height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.imagenbiblio {
+/* .imagenbiblio {
   height: 200px;
   width: 300px;
   border: #6b8376;
-}
+} */
 
-.titulob {
+/* .titulob {
   text-align: center;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+} */
 
-.subtbiblio {
+/* .subtbiblio {
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+} */
 
 .indeximg,
 .indeximgb {
@@ -175,12 +133,10 @@ salmon: #e4a681  */
   height: 90%;
   width: 90%;
   object-fit: cover;
-  /* clip-path: circle(50% at 50% 50%); */
 }
 
 .textos-header,
 .textos-headerb {
-  margin-top: 20%;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: medium;
@@ -188,7 +144,6 @@ salmon: #e4a681  */
 
 .titulo {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* font-size: x-large; */
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
@@ -205,10 +160,6 @@ salmon: #e4a681  */
 #contacto label {
   margin-bottom: 0;
 }
-
-/* .dataContact {
-  margin: auto;
-} */
 
 .formContact {
   border-left: 2px solid #decdb9;
@@ -231,14 +182,12 @@ label.error {
   color: #000;
   font-size: x-large;
   text-align: center;
-
   font-style: italic;
-
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 .miembros {
   padding: 1em;
-  background-color: #d09984;
   text-align: center;
   justify-content: space-between;
 }
@@ -269,27 +218,14 @@ label.error {
   background-image: url("../img/parallax/dark1.jpg");
 }
 
-#contacto i {
-  margin-right: 1em;
-}
-
-#contacto label {
-  margin-bottom: 0;
-}
-
 .dataContact {
   margin: auto;
 }
 
-.formContact {
-  border-left: 2px solid #decdb9;
-}
-
-label.error {
-  color: #e4a681;
-  font-size: 1rem;
+#aboutUs:before {
+  height: 54px;
+  content: "";
   display: block;
-  margin-top: 5px;
 }
 
 @media (max-width: 575.98px) {
