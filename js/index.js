@@ -75,17 +75,20 @@ $(document).ready(function () {
         mail: mail.val(),
         message: message.val(),
       };
-      clearForm(name, surname, mail, message);
-      toastr.success("Mensaje enviado exitosamente!", "Mensaje Enviado");
-      // $.ajax({
-      //   type: "POST",
-      //   url: "email.php",
-      //   dataType: "json",
-      //   data: data,
-      //   success: function () {
-      //     toastr.success("Mensaje enviado exitosamente!", "Mensaje Enviado");
-      //   },
-      // });
+      $.ajax({
+        type: "POST",
+        url: "email.php",
+        data: data,
+        dataType: "json",
+        success: function (response) {
+          if (response.status == 1) {
+            clearForm(name, surname, mail, message);
+            toastr.success(response.message, "Mensaje Enviado");
+          } else {
+            toastr.error(response.message, "Error");
+          }
+        },
+      });
     }
   });
 });

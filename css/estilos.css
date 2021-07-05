@@ -210,6 +210,10 @@ label.error {
   .dataContact span {
     font-size: 0.8em;
   }
+
+  .carousel-item img {
+    object-fit: fill;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -262,5 +266,9 @@ label.error {
 
   .dataContact span {
     font-size: 0.8em;
+  }
+
+  .carousel-item img {
+    object-fit: fill;
   }
 }
