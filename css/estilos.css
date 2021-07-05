@@ -6,20 +6,6 @@ rosita_2: #bba389
 crema: #decdb9
 salmon: #e4a681  */
 
-/* .uno {
-  background-color: #6b8376;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #020202;
-  font-size: x-large;
-  font-style: normal;
-  padding: 1em;
-} */
-
-/* .dos {
-  font-size: xx-large;
-} */
-
 #nav {
   background-color: #6b8376;
   bottom: 0;
@@ -30,19 +16,6 @@ salmon: #e4a681  */
   border-radius: 30px;
   border-color: #6b8376;
 }
-
-/* .act1 {
-  background-color: #6b8376;
-  text-align: center;
-} */
-
-/* .act2 {
-  background-color: #6b8376;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 1em;
-  font-size: xx-large;
-} */
 
 .act3 {
   display: flex;
@@ -55,15 +28,11 @@ salmon: #e4a681  */
 }
 
 .tress {
-  /* margin: 0; */
   padding: 0.5em;
   border-color: #d09984;
   box-shadow: 5px 5p #bba389(204, 166, 166);
-  /* color: rgb(0, 0, 0); */
   font-style: italic;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* align-content: center; */
-  /* background-color: #f1cfc1; */
 }
 
 .card:hover {
@@ -72,25 +41,12 @@ salmon: #e4a681  */
   z-index: 10;
 }
 
-/* .contenedorcards {
-  padding: 2em;
-} */
-
 #footer {
   background-color: #6b8376;
   color: #020202;
   text-align: center;
   padding: 2em;
 }
-
-/* .actividades {
-  background-color: #d09984;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-style: italic;
-  font-size: xx-large;
-  color: #101110;
-} */
 
 .contenedor {
   padding: 1em 0;
@@ -100,31 +56,6 @@ salmon: #e4a681  */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #020202;
 }
-
-/* .contenido-header {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-/* .imagenbiblio {
-  height: 200px;
-  width: 300px;
-  border: #6b8376;
-} */
-
-/* .titulob {
-  text-align: center;
-  font-size: x-large;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-} */
-
-/* .subtbiblio {
-  font-size: x-large;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-} */
 
 .indeximg,
 .indeximgb {
