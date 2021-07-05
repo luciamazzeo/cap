@@ -64,6 +64,7 @@ $(document).ready(function () {
 
   $(".btnSend").click(function (e) {
     e.preventDefault();
+    $(".btnSend").prop("disabled", true);
     let name = $(".txtName");
     let surname = $(".txtSurname");
     let mail = $(".txtMail");
@@ -84,6 +85,7 @@ $(document).ready(function () {
           if (response.status == 1) {
             clearForm(name, surname, mail, message);
             toastr.success(response.message, "Mensaje Enviado");
+            $(".btnSend").prop("disabled", false);
           } else {
             toastr.error(response.message, "Error");
           }
