@@ -211,8 +211,8 @@ label.error {
     font-size: 0.8em;
   }
 
-  .carousel-item img {
-    object-fit: fill;
+  #agendaCarousel img {
+    object-fit: fill !important;
   }
 }
 
@@ -268,7 +268,7 @@ label.error {
     font-size: 0.8em;
   }
 
-  .carousel-item img {
-    object-fit: fill;
+  #agendaCarousel img {
+    object-fit: fill !important;
   }
 }
