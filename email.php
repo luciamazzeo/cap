@@ -1,7 +1,7 @@
 <?php 
 // Recipient email 
 $toEmail = 'simoncellisantiago@gmail.com'; 
-$emailSubject = "Mensaje de la web";
+$emailSubject = "Mensaje desde la web";
  
 $status = 0; 
 $statusMsg = 'Upss! Algo fallo!'; 

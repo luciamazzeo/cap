@@ -11,6 +11,10 @@ salmon: #e4a681  */
   bottom: 0;
 }
 
+.navbar-nav {
+  padding-left: 1em;
+}
+
 .btnlucia {
   background-color: #d09984;
   border-radius: 30px;
