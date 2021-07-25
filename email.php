@@ -1,7 +1,6 @@
 <?php 
 // Recipient email 
-// $toEmail = 'convocatoriaalpsicoanalisis@yahoo.com.ar'; 
-$toEmail = 'simoncellisantiago@gmail.com'; 
+$toEmail = 'convocatoriaalpsicoanalisis@yahoo.com.ar'; 
 $emailSubject = "Mensaje desde la web";
  
 $status = 0; 
