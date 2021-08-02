@@ -176,6 +176,10 @@ label.error {
   width: 100%;
 }
 
+#agendaCarousel img {
+  object-fit: fill !important;
+}
+
 @media (max-width: 575.98px) {
   .dataContact {
     margin-bottom: 2em;
