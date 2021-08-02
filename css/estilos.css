@@ -107,12 +107,6 @@ label.error {
   margin-top: 5px;
 }
 
-.carousel-item img {
-  width: 100vw;
-  height: 90vh;
-  object-fit: cover;
-}
-
 .comision {
   color: #000;
   font-size: x-large;
@@ -176,8 +170,9 @@ label.error {
   width: 100%;
 }
 
-#agendaCarousel img {
-  object-fit: fill !important;
+.carousel-item img {
+  max-width: 100%;
+  height: 90vh;
 }
 
 @media (max-width: 575.98px) {
@@ -232,12 +227,8 @@ label.error {
     font-size: 0.8em;
   }
 
-  /* #agendaCarousel img {
-    object-fit: fill !important;
-  } */
-
-  .fitImg img {
-    object-fit: fill !important;
+  .fitCover {
+    object-fit: cover !important;
   }
 }
 
@@ -293,11 +284,7 @@ label.error {
     font-size: 0.8em;
   }
 
-  /* #agendaCarousel img {
-    object-fit: fill !important;
-  } */
-
-  .fitImg img {
-    object-fit: fill !important;
+  .fitCover {
+    object-fit: cover !important;
   }
 }
