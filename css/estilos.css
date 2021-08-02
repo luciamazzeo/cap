@@ -232,7 +232,11 @@ label.error {
     font-size: 0.8em;
   }
 
-  #agendaCarousel img {
+  /* #agendaCarousel img {
+    object-fit: fill !important;
+  } */
+
+  .fitImg img {
     object-fit: fill !important;
   }
 }
@@ -289,7 +293,11 @@ label.error {
     font-size: 0.8em;
   }
 
-  #agendaCarousel img {
+  /* #agendaCarousel img {
+    object-fit: fill !important;
+  } */
+
+  .fitImg img {
     object-fit: fill !important;
   }
 }
