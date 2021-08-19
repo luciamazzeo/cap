@@ -226,6 +226,10 @@ label.error {
   transform: rotate(0deg);
 }
 
+.accordion-collapse {
+  height: 12em;
+}
+
 @media (max-width: 575.98px) {
   .dataContact {
     margin-bottom: 2em;
