@@ -180,6 +180,52 @@ label.error {
   object-fit: fill !important;
 }
 
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion-button {
+  background-color: #7e8183db;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-collapse {
+  background-color: #9b9b9bb5;
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+
+.accordion-button::after {
+  content: "\002B";
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #7e8183db;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "\2212";
+  background-image: none;
+  transform: rotate(0deg);
+}
+
 @media (max-width: 575.98px) {
   .dataContact {
     margin-bottom: 2em;
